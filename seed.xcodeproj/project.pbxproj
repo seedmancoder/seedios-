@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043938181BE445C8009C87EB /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 043938171BE445C8009C87EB /* Property List.plist */; };
+		043938191BE445C8009C87EB /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 043938171BE445C8009C87EB /* Property List.plist */; };
 		046215591BE250C1000A55A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 046215581BE250C1000A55A6 /* main.m */; };
 		0462155C1BE250C1000A55A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0462155B1BE250C1000A55A6 /* AppDelegate.m */; };
 		0462155F1BE250C1000A55A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0462155E1BE250C1000A55A6 /* ViewController.m */; };
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		043938171BE445C8009C87EB /* Property List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 		046215541BE250C1000A55A6 /* seed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = seed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		046215581BE250C1000A55A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0462155A1BE250C1000A55A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -108,7 +111,6 @@
 				046215601BE250C1000A55A6 /* Main.storyboard */,
 				046215631BE250C1000A55A6 /* Assets.xcassets */,
 				046215651BE250C1000A55A6 /* LaunchScreen.storyboard */,
-				046215681BE250C1000A55A6 /* Info.plist */,
 				046215571BE250C1000A55A6 /* Supporting Files */,
 			);
 			path = seed;
@@ -117,6 +119,8 @@
 		046215571BE250C1000A55A6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				043938171BE445C8009C87EB /* Property List.plist */,
+				046215681BE250C1000A55A6 /* Info.plist */,
 				046215581BE250C1000A55A6 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -248,6 +252,7 @@
 			files = (
 				046215671BE250C1000A55A6 /* LaunchScreen.storyboard in Resources */,
 				046215641BE250C1000A55A6 /* Assets.xcassets in Resources */,
+				043938181BE445C8009C87EB /* Property List.plist in Resources */,
 				046215621BE250C1000A55A6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043938191BE445C8009C87EB /* Property List.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +505,7 @@
 				046215831BE250C1000A55A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		046215841BE250C1000A55A6 /* Build configuration list for PBXNativeTarget "seedTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +514,7 @@
 				046215861BE250C1000A55A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		046215871BE250C1000A55A6 /* Build configuration list for PBXNativeTarget "seedUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +523,7 @@
 				046215891BE250C1000A55A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

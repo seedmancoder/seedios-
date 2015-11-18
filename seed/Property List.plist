@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>伊布</string>
+		<key>description</key>
+		<string>我是兹拉坦，你是谁</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>比利亚</string>
+		<key>description</key>
+		<string>啦啦啦啦，葫芦娃</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>梅西</string>
+		<key>description</key>
+		<string>宇宙队的梅天王</string>
+	</dict>
+</array>
+</plist>
